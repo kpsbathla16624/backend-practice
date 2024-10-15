@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                        // Specifies the ECMAScript target version.
+      "module": "CommonJS",                      // Sets the module system to CommonJS, suitable for Node.js.
+      "rootDir": "./src",                        // Root directory of your source files.
+      "outDir": "./dist",                        // Directory to output compiled JavaScript files.
+      "strict": true,                            // Enable all strict type checking options.
+      "esModuleInterop": true,                   // Allows better compatibility with CommonJS modules.
+      "skipLibCheck": true,                      // Skips type checking of declaration files (improves compilation speed).
+      "forceConsistentCasingInFileNames": true,  // Ensures that file name case is consistent.
+      "moduleResolution": "node",                // Resolve modules like Node.js does.
+      "resolveJsonModule": true,                 // Enable importing .json files.
+      "noImplicitAny": true,                     // Report errors on expressions and declarations with an implied `any` type.
+      "types": ["node"]                          // Include type definitions for Node.js.
+    },
+    "include": ["src/**/*"],                      // Include all files in the src folder.
+    "exclude": ["node_modules", "dist"]           // Exclude node_modules and dist folders.
+  }
+  
